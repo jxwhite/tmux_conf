@@ -1,13 +1,13 @@
 # ln -s -f /Users/xxx/xxx/.tmux.conf ~/.tmux.conf
 
 # 外部命令
-## tmux new -s sess1 创建一个名为sess1的会话
-## tmux new -s sess1 -n win1 创建一个名为sess1的会话并把第一个窗口名命名为win1
-## tmux ls 查看所有后台运行的会话
-## tmux a -t sess1 连接到一个名为sess1的会话
-## tmux a 默认进入到第一个会话
-## tmux kill-session -t sess1 关闭名为sess1的会话
-## tmux kill-server 关闭服务器，所有的会话都会被关闭
+- **tmux new -s sess1** 创建一个名为sess1的会话
+- **tmux new -s sess1 -n win1** 创建一个名为sess1的会话并把第一个窗口名命名为win1
+- **tmux ls** 查看所有后台运行的会话
+- **tmux a -t sess1** 连接到一个名为sess1的会话
+- **tmux a** 默认进入到第一个会话
+- **tmux kill-session -t sess1** 关闭名为sess1的会话
+- **tmux kill-server** 关闭服务器，所有的会话都会被关闭
 
 
 
